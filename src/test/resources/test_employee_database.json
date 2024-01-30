@@ -1,0 +1,97 @@
+[
+  {
+    "employeeId" : "478df7de-3931-48dc-a077-7702ce518f7e",
+    "firstName" : "Cloud",
+    "lastName" : "Strife",
+    "position" : "VP Technology",
+    "department" : "Engineering",
+    "directReports" : [
+      {
+        "employeeId" : "c796e042-b380-42fd-adce-a0369d35d2f6"
+      },
+      {
+        "employeeId": "51fb3a12-9254-4e2f-9ac0-e6127042d8b7"
+      },
+      {
+        "employeeId": "af9b69f9-cf15-4dee-9308-c38f137fbb6f"
+      }
+    ]
+  },
+  {
+    "employeeId" : "c796e042-b380-42fd-adce-a0369d35d2f6",
+    "firstName" : "Tifa",
+    "lastName" : "Lockhart",
+    "position" : "Project Lead",
+    "department" : "Engineering"
+  },
+  {
+    "employeeId" : "51fb3a12-9254-4e2f-9ac0-e6127042d8b7",
+    "firstName" : "Barrett",
+    "lastName" : "Wallace",
+    "position" : "Project Manager",
+    "department" : "Engineering",
+    "directReports" : [
+      {
+        "employeeId" : "9099994c-591f-495e-b92b-e5cef853d650"
+      },
+      {
+        "employeeId": "a7a9129d-004e-46e8-9057-31eca84ad6e2"
+      }
+    ]
+  },
+  {
+    "employeeId" : "af9b69f9-cf15-4dee-9308-c38f137fbb6f",
+    "firstName" :"Aerith",
+    "lastName" : "Gainsborough",
+    "position" : "Product Manager",
+    "department" : "Engineering",
+    "directReports" : [
+      {
+        "employeeId" : "4eb171a2-7f74-4ea6-8d4c-782d7aeaf649"
+      },
+      {
+        "employeeId": "c763e90a-46d6-44f8-a202-ce2aea1105f8"
+      }
+    ]
+  },
+  {
+    "employeeId" : "9099994c-591f-495e-b92b-e5cef853d650",
+    "firstName" : "Cid",
+    "lastName" : "Highwind",
+    "position" : "Developer V",
+    "department" : "Engineering"
+  },
+  {
+    "employeeId" : "a7a9129d-004e-46e8-9057-31eca84ad6e2",
+    "firstName" : "Red",
+    "lastName" : "XIII",
+    "position" : "Developer I",
+    "department" : "Engineering"
+  },
+  {
+    "employeeId" : "4eb171a2-7f74-4ea6-8d4c-782d7aeaf649",
+    "firstName" : "Cait",
+    "lastName" : "Sith",
+    "position" : "Developer III",
+    "department" : "Engineering"
+  },
+  {
+    "employeeId" : "c763e90a-46d6-44f8-a202-ce2aea1105f8",
+    "firstName" : "Yuffie",
+    "lastName" : "Kusaragi",
+    "position" : "Developer II",
+    "department" : "Engineering",
+    "directReports" : [
+      {
+        "employeeId" : "25b35187-8695-4f51-8cfc-e7ed623a9050"
+      }
+    ]
+  },
+  {
+    "employeeId" : "25b35187-8695-4f51-8cfc-e7ed623a9050",
+    "firstName" : "Vincent",
+    "lastName" : "Valentine",
+    "position" : "Intern",
+    "department" : "Engineering"
+  }
+]

@@ -1,5 +1,8 @@
 package com.mindex.challenge.data;
 
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
+
 import java.util.List;
 
 public class Employee {
@@ -11,6 +14,20 @@ public class Employee {
     private List<Employee> directReports;
 
     public Employee() {
+    }
+
+    public Employee(String employeeId,
+                    String firstName,
+                    String lastName,
+                    String position,
+                    String department,
+                    List<Employee> directReports) {
+        this.employeeId = employeeId;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.position = position;
+        this.department = department;
+        this.directReports = directReports;
     }
 
     public String getEmployeeId() {
@@ -59,5 +76,15 @@ public class Employee {
 
     public void setDirectReports(List<Employee> directReports) {
         this.directReports = directReports;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return EqualsBuilder.reflectionEquals(this, obj);
+    }
+
+    @Override
+    public int hashCode() {
+        return HashCodeBuilder.reflectionHashCode(this);
     }
 }
